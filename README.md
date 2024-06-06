@@ -16,7 +16,7 @@ Este proyecto es una Landing Page para una concesionaria de vehículos en línea
 
 ## Uso
 
-Una vez que el servidor esté en funcionamiento, puedes acceder a la Landing Page a través de tu navegador web visitando `http://localhost:`.
+Una vez que el servidor esté en funcionamiento, puedes acceder a la Landing Page a través de tu navegador web visitando `http://localhost:5173`.
 
 ## Características
 
@@ -24,7 +24,9 @@ Una vez que el servidor esté en funcionamiento, puedes acceder a la Landing Pag
 
 - React
 - Vite
+- Tailwind
 - Typescript
+- pnpm
 
 ## Contribución
 
