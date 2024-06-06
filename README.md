@@ -1,30 +1,50 @@
-# React + TypeScript + Vite
+## Descripción
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una Landing Page para una concesionaria de vehículos en línea. Proporciona información detallada y precios de los vehículos disponibles, ofreciendo una experiencia de navegación intuitiva y eficiente para los clientes que buscan su próximo automóvil.
 
-Currently, two official plugins are available:
+## Demo
+![Home](https://github.com/Casadjes/car-website/assets/115717042/1c1966d0-c5bf-42fa-95ec-e0fa5a9caace)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Rendimiento
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Instalación
 
-- Configure the top-level `parserOptions` property like this:
+1. Clona este repositorio en tu máquina local.
+2. Asegúrate de tener Node.js instalado.
+3. Ejecuta `pnpm install` para instalar las dependencias.
+4. Ejecuta `pnpm start` para iniciar el servidor de desarrollo.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Uso
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Una vez que el servidor esté en funcionamiento, puedes acceder a la Landing Page a través de tu navegador web visitando `http://localhost:5173`.
+
+## Características
+
+## Tecnologías Utilizadas
+
+- React
+- Vite
+- Tailwind
+- Typescript
+- pnpm
+
+## Contribución
+
+Si deseas contribuir a este proyecto, por favor sigue estos pasos:
+
+1. Haz un fork del repositorio.
+2. Crea una nueva rama (`git checkout -b feature/nueva-caracteristica`).
+3. Realiza tus cambios y haz commit de ellos (`git commit -am 'Agrega nueva característica'`).
+4. Haz push de tu rama (`git push origin feature/nueva-caracteristica`).
+5. Crea un nuevo Pull Request.
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+
+¡Gracias por tu interés en este proyecto! Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto con nosotros.
+
+## 👏 Gracias a todos por sus contribuciones
+
+<img align="left" src="https://contributors-img.web.app/image?repo=Lostovayne/car-website"/>
