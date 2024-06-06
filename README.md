@@ -3,7 +3,8 @@
 Este proyecto es una Landing Page para una concesionaria de vehículos en línea. Proporciona información detallada y precios de los vehículos disponibles, ofreciendo una experiencia de navegación intuitiva y eficiente para los clientes que buscan su próximo automóvil.
 
 ## Demo
-![Home](https://github.com/Casadjes/car-website/assets/115717042/abc9a0d2-144f-4006-ab70-a367b2fb59dc)
+![Home](https://github.com/Casadjes/car-website/assets/115717042/1c1966d0-c5bf-42fa-95ec-e0fa5a9caace)
+
 
 ## Rendimiento
 
