@@ -1,5 +1,6 @@
+import Header from "./components/Home/Header";
 function App() {
-  return <div>Hola</div>;
+  return <Header />;
 }
 
 export default App;
