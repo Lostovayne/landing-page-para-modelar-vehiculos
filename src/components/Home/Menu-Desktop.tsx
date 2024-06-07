@@ -1,8 +1,14 @@
-const MenuDesktop = () => {
+import { cn } from "../../lib/utils";
+
+interface Props {
+  className?: string;
+}
+
+const MenuDesktop = ({ className = "" }: Props) => {
   return (
-    <div className="w-full flex justify-between">
+    <div className={cn("w-full flex justify-between", className)}>
       <a href="#">
-        <img src="/images/Header/Logo.svg" alt="logo" />
+        <img src="/images/Header/Logo.svg" alt="logo" className="w-24" width={100} height={100}  />
       </a>
 
       <div>

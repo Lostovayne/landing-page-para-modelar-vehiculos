@@ -1,6 +1,11 @@
-import Header from "./components/Home/Header";
+import { Header } from "./components";
+
 function App() {
-  return <Header />;
+  return (
+    <div className="bg-primary size-full font-exo overflow-hidden">
+      <Header />
+    </div>
+  );
 }
 
 export default App;

@@ -1,6 +1,12 @@
-const MenuMobile = () => {
+import { cn } from "../../lib/utils";
+
+interface Props {
+  className?: string;
+}
+
+const MenuMobile = ({ className = "" }: Props) => {
   return (
-    <div className="w-full flex justify-between items-center">
+    <div className={cn("w-full flex justify-between items-center", className)}>
       <a href="#" className="flex items-center">
         <img src="/images/Header/Logo.svg" alt="logo" />
       </a>
